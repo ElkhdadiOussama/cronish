@@ -1,7 +1,7 @@
 package cronish
 
 /**
- * Provides showtcuts for creating tasks and schedules
+ * Provides shortcuts for creating tasks and schedules
  */
 package object dsl {
   implicit def string2cron(syntax: String) = Cronish(syntax)
